@@ -4,9 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <title>Florent Maret</title>
 </head>
-<body>
+<body class="bg-gray-900">
+    <div class="h-screen flex flex-col">
+        <div class="bg-gray-800 flex text-white py-4 px-56">
+            <a href="#moi" class="px-2 hover:text-yellow-500">Accueil</a>
+            <a href="#" class="px-2 hover:text-yellow-500">Qui suis-je</a>
+            <a href="#" class="px-2 hover:text-yellow-500">Mes projets</a>
+        </div>
+        <div class="flex flex-col text-white flex-grow items-center justify-center">
+            <h1 class="text-9xl mb-12">Florent Maret</h1>
+                <p class="text-5xl py-2">Data Scientist</p>
+                <p class="text-5xl py-2">Developpeur Full-Stack</p>
+                <p class="text-5xl py-2">Deep Learning</p>
+                <p class="text-5xl py-2">Auto-entrepreneur</p>
+
+        </div>
+    </div>
+        <div class="divide-x flex" id="moi">
+            <div class="flex flex-col items-center pr-5">
+                <h1 class="text-white text-5xl pl-5 py-5 w-80">Qui suis-je ?</h1>
+               
+            </div>
+            <div class="pl-16 text-white text-2xl px-12">
+                <p class="my-2">
+                    Salut, moi c'est Florent Maret et j'ai décidé de me lancer dans l'auto-entreprenariat ! Passionné par les mathématiques et l'informatique depuis toujours,
+                    j'ai obtenu un master de Data Science et je passe le plus gros de mon temps libre à apprendre de nouvelles choses en informatique. 
+                    <br>Si vous cherchez quelqu'un de polyvalent et efficace, je suis la personne qu'il vous faut !
+                </p>
+
+            </div>
+        </div>
+        <div class="divide-x flex mt-8" id="monParcours">
+            <div class="flex flex-col items-center pr-5">
+                <h1 class="text-white text-5xl pl-5 py-5 w-80">Mon parcours</h1>
+               
+            </div>
+            <div class="pl-16 text-white text-2xl px-12 flex flex-row ">
+                <img src="maPhoto.jpg" class="w-96">
+                <div class="my-2 ml-20">
+                    <div class="flex flex-row">
+                        <ul>
+                            <li class="flex py-2">
+                                <img src="univ.png" class="w-24 h-24">
+                                <div class="flex flex-col ml-10">
+                                    <div>Master Ingénierie Statistique et Numérique - Data Science (Mention Bien)</div>
+                                    <div>Université de Lille</div>
+                                    <div>2019-2021</div>                            
+                                </div>
+                            </li>
+                            <li class="flex py-2">
+                                <img src="univ.png" class="w-24 h-24">
+                                <div class="flex flex-col ml-10">
+                                    <div>Licence de Mathématiques (Mention Assez Bien)</div>
+                                    <div>Université de Lille</div>
+                                    <div>2017-2019</div>                            
+                                </div>
+                            </li>
+                            <li class="flex py-2">
+                                <img src="faidherbe.jpg" class="w-24 h-24">
+                                <div class="flex flex-col ml-10">
+                                    <div>CPGE - Maths Physique Sciences de l'Ingénieur</div>
+                                    <div>Lycée Faidherbe - Lille</div>
+                                    <div>2016-2017</div>                            
+                                </div>
+                            </li>
+                            <li class="flex py-2">
+                                <img src="baggio.jpg" class="w-24 h-24">
+                                <div class="flex flex-col ml-10">
+                                    <div>Baccalauréat Scientifique - Sciences de l'Ingénieur (Mention Très Bien)</div>
+                                    <div>Lycée César Baggio - Lille</div>
+                                    <div>2015</div>                            
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                   
+                </div>
+               
+            </div>
+        </div>
+
     
 </body>
 </html>
