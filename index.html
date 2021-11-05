@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <title>Florent Maret</title>
 </head>
 <body class="bg-gray-900">
@@ -43,9 +44,9 @@
                 <h1 class="text-white text-5xl pl-5 py-5 w-80">Mon parcours</h1>
                
             </div>
-            <div class="pl-16 text-white text-2xl px-12 flex flex-row ">
-                <img src="maPhoto.jpg" class="w-96 h-96">
-                <div class="my-2 ml-20">
+            <div class="pl-16 text-white text-2xl px-5 flex flex-row ">
+                
+                <div class="my-2 ml-0">
                     <div class="flex flex-row">
                         <ul>
                             <li class="flex py-2">
@@ -86,7 +87,51 @@
                 </div>
                
             </div>
+            
         </div>
+
+
+        <div class="divide-x flex mt-10" id="moi">
+            <div class="flex flex-col items-center pr-5">
+                <h1 class="text-white text-5xl pl-5 py-5 w-80">Mes projets</h1>
+               
+            </div>
+            <div class="pl-0 text-white text-2xl px-0">
+                <div class="w-full mx-auto p-8">
+                    <div class="shadow-md">
+                       <div class="tab w-full overflow-hidden border-t">
+                          <input class="absolute opacity-0" id="tab-single-one" type="checkbox" name="tabs2">
+                          <label class="block p-5 leading-normal cursor-pointer" for="tab-single-one">Projet L - Développement et Deep Learning</label>
+                          <div class="tab-content overflow-hidden  leading-normal">
+                             <p class="p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+                          </div>
+                       </div>
+                       <div class="tab w-full overflow-hidden border-t">
+                          <input class="absolute opacity-0" id="tab-single-two" type="checkbox" name="tabs2">
+                          <label class="block p-5 leading-normal cursor-pointer" for="tab-single-two">Différentiation de sous-espèces de musaraignes - Data Science</label>
+                          <div class="tab-content overflow-hidden  leading-normal">
+                             <p class="p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+                          </div>
+                       </div>
+                       <div class="tab w-full overflow-hidden border-t">
+                          <input class="absolute opacity-0" id="tab-single-three" type="checkbox" name="tabs2">
+                          <label class="block p-5 leading-normal cursor-pointer" for="tab-single-three">Classification d'images d'animaux - Data Science</label>
+                          <div class="tab-content overflow-hidden  leading-normal">
+                             <p class="p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+
+            </div>
+
+            
+
+
+        </div>
+
+        
+
     </div>
     
 </body>
