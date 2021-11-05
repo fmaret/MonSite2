@@ -41,11 +41,11 @@ font-weight:bold; /*.font-bold*/
 /* Icon formatting - open */
 .tab input[type=checkbox]:checked + label::after {
 transform: rotate(315deg);
-color: #f8fafc; /*.text-grey-lightest*/
+/*color: #f8fafc; /*.text-grey-lightest*/
 }
 .tab input[type=checkbox]:checked + label::after {
 transform: rotateX(180deg);
-color: #f8fafc; /*.text-grey-lightest*/
+/*color: #f8fafc; /*.text-grey-lightest*/
 }
 
 
