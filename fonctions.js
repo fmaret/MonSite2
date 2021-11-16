@@ -5,3 +5,10 @@ function changePhoto(){
     numSuivant = num<photos ? (parseInt(num)+1).toString():1;
     document.getElementById("photoProjetL").src="pl"+numSuivant+".png";
 }
+
+window.onload = function(){
+    setInterval( ()=>{
+        changePhoto()
+    },
+    2000)
+}

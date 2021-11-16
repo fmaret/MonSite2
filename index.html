@@ -1,147 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
     <title>Florent Maret</title>
 </head>
+
 <body class="bg-gray-900">
     <div class="h-screen flex flex-col">
-        <div class="bg-gray-800 flex text-white py-4 fixed top-0 w-screen lg:justify-center xl:justify-start xl:px-56 px-20">
+        <div
+            class="bg-gray-800 flex text-white py-4 fixed top-0 w-screen justify-center lg:justify-start xl:px-56 px-20">
             <a href="#moi" class="px-2 hover:text-yellow-500 items-center flex justify-center">Accueil</a>
             <a href="#" class="px-2 hover:text-yellow-500">Qui suis-je</a>
             <a href="#" class="px-2 hover:text-yellow-500">Mes projets</a>
         </div>
         <div class="flex flex-col text-white flex-grow items-center justify-center">
-            <h1 class="text-9xl mb-12">Florent Maret</h1>
-                <p class="text-5xl py-2">Data Scientist</p>
-                <p class="text-5xl py-2">Developpeur Full-Stack</p>
-                <p class="text-5xl py-2">Deep Learning</p>
-                <p class="text-5xl py-2">Auto-entrepreneur</p>
+            <h1 class="text-7xl lg:text-9xl mb-12">Florent Maret</h1>
+            <p class="text-3xl lg:text-5xl py-2">Data Scientist</p>
+            <p class="text-3xl lg:text-5xl py-2">Developpeur Full-Stack</p>
+            <p class="text-3xl lg:text-5xl py-2">Deep Learning</p>
+            <p class="text-3xl lg:text-5xl py-2">Auto-entrepreneur</p>
 
         </div>
     </div>
-    <div class="px-40">
-        <div class="divide-x flex" id="moi">
+    <div class="lg:px-40 text-center lg:text-left">
+        <div class="lg:divide-x lg:flex" id="moi">
             <div class="flex flex-col items-center pr-5">
                 <h1 class="text-white text-5xl pl-5 py-5 w-80">Qui suis-je ?</h1>
-               
+
             </div>
-            <div class="pl-16 text-white text-2xl px-12">
+            <div class="lg:pl-16 text-white text-2xl px-12">
                 <p class="my-2">
-                    Salut, moi c'est Florent Maret et j'ai décidé de me lancer dans l'auto-entreprenariat ! Passionné par les mathématiques et l'informatique depuis toujours,
-                    j'ai obtenu un master de Data Science et je passe le plus gros de mon temps libre à apprendre de nouvelles choses en informatique. 
+                    Salut, moi c'est Florent Maret et j'ai décidé de me lancer dans l'auto-entreprenariat ! Passionné
+                    par les mathématiques et l'informatique depuis toujours,
+                    j'ai obtenu un master de Data Science et je passe le plus gros de mon temps libre à apprendre de
+                    nouvelles choses en informatique.
                     <br>Si vous cherchez quelqu'un de polyvalent et efficace, je suis la personne qu'il vous faut !
                 </p>
 
             </div>
         </div>
-        <div class="divide-x flex mt-8" id="monParcours">
+        <div class="lg:divide-x lg:flex mt-8" id="monParcours">
             <div class="flex flex-col items-center pr-5">
                 <h1 class="text-white text-5xl pl-5 py-5 w-80">Mon parcours</h1>
-               
+
             </div>
-            <div class="pl-16 text-white text-2xl px-5 flex flex-row ">
-                
+            <div class="lg:pl-16 text-white text-2xl px-5 flex flex-row ">
+
                 <div class="my-2 ml-0">
                     <div class="flex flex-row">
                         <ul>
-                            <li class="flex py-2">
+                            <li class="flex items-center px-2 py-2 border-t lg:border-none">
                                 <img src="univ.png" class="w-24 h-24">
                                 <div class="flex flex-col ml-10">
                                     <div>Master Ingénierie Statistique et Numérique - Data Science (Mention Bien)</div>
                                     <div>Université de Lille</div>
-                                    <div>2019-2021</div>                            
+                                    <div>2019-2021</div>
                                 </div>
                             </li>
-                            <li class="flex py-2">
+                            <li class="flex items-center py-2 border-t lg:border-none">
                                 <img src="univ.png" class="w-24 h-24">
                                 <div class="flex flex-col ml-10">
                                     <div>Licence de Mathématiques (Mention Assez Bien)</div>
                                     <div>Université de Lille</div>
-                                    <div>2017-2019</div>                            
+                                    <div>2017-2019</div>
                                 </div>
                             </li>
-                            <li class="flex py-2">
+                            <li class="flex items-center py-2 border-t lg:border-none">
                                 <img src="faidherbe.jpg" class="w-24 h-24">
                                 <div class="flex flex-col ml-10">
                                     <div>CPGE - Maths Physique Sciences de l'Ingénieur</div>
                                     <div>Lycée Faidherbe - Lille</div>
-                                    <div>2016-2017</div>                            
+                                    <div>2016-2017</div>
                                 </div>
                             </li>
-                            <li class="flex py-2">
+                            <li class="flex items-center py-2 border-t border-b lg:border-none">
                                 <img src="baggio.jpg" class="w-24 h-24">
                                 <div class="flex flex-col ml-10">
                                     <div>Baccalauréat Scientifique - Sciences de l'Ingénieur (Mention Très Bien)</div>
                                     <div>Lycée César Baggio - Lille</div>
-                                    <div>2015</div>                            
+                                    <div>2015</div>
                                 </div>
                             </li>
                         </ul>
                     </div>
-                   
+
                 </div>
-               
+
             </div>
-            
+
         </div>
 
 
-        <div class="divide-x flex mt-10 h-screen" id="mesprojets">
+        <div class="lg:divide-x lg:flex mt-10" id="mesprojets">
             <div class="flex flex-col items-center pr-5">
                 <h1 class="text-white text-5xl pl-5 py-5 w-80">Mes projets</h1>
-               
+
             </div>
             <div class="pl-0 text-white text-2xl px-0">
                 <div class="w-full mx-auto p-8">
                     <div class="shadow-md">
-                       <div class="tab w-full overflow-hidden border-t">
-                          <input class="absolute opacity-0" id="tab-single-one" type="checkbox" name="tabs2">
-                          <label class="block p-5 leading-normal cursor-pointer" for="tab-single-one">Projet L - Développement et Deep Learning</label>
-                          <div class="tab-content overflow-hidden  leading-normal">
-                            <p class="p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
-                            
-                            <img src="pl1.png" id="photoProjetL" class="w-4/5">
-                            <div class="flex flex-row">
-                              <button class="w-12 bg-gray-100" href="#" onclick="changePhoto();">zz</button>
+                        <div class="tab w-full overflow-hidden border-t">
+                            <input class="absolute opacity-0" id="tab-single-one" type="checkbox" name="tabs2">
+                            <label class="block p-5 leading-normal cursor-pointer" for="tab-single-one">Projet L -
+                                Développement et Deep Learning</label>
+                            <div class="tab-content overflow-hidden  leading-normal">
+                                <p class="p-5">
+                                    Projet L est un jeu vidéo réalisé sur Unreal Engine et démarré lors de mon stage de
+                                    Master à l'Université de Lille. Le but est de survivre dans la ville de Lille à
+                                    l'époque de l'après-révolution française.
+                                    Le deep learning est également utilisé dans ce projet puisque l'intelligence
+                                    artificielle des ennemis du jeu est faite à partir d'algorithmes de Deep Learning
+                                    (sur Python).
+                                </p>
+
+                                <div class="flex flex-row justify-center">
+                                    <img src="pl1.png" id="photoProjetL" class="w-4/5">
+                                </div>
+
+
+
                             </div>
-                                
-                              
-                          </div>
-                       </div>
-                       <div class="tab w-full overflow-hidden border-t m-auto">
-                          <input class="absolute opacity-0" id="tab-single-two" type="checkbox" name="tabs2">
-                          <label class="block p-5 leading-normal cursor-pointer" for="tab-single-two">Différentiation de sous-espèces de musaraignes - Data Science</label>
-                          <div class="tab-content overflow-hidden   leading-normal">
-                             <p class="p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
-                             <a class="m-5 py-2 px-4 bg-yellow-500 items-center justify-center flex w-1/4" href="TER.pdf" target=blank_>Voir le PDF</a>
+                        </div>
+                        <div class="tab w-full overflow-hidden border-t m-auto">
+                            <input class="absolute opacity-0" id="tab-single-two" type="checkbox" name="tabs2">
+                            <label class="block p-5 leading-normal cursor-pointer" for="tab-single-two">Différentiation
+                                de sous-espèces de musaraignes - Data Science</label>
+                            <div class="tab-content overflow-hidden   leading-normal">
+                                <p class="p-5">
+                                    Ce projet avait pour but de valider une classification de sous-espèces de
+                                    musaraignes faites par des chercheurs en biologie. Après avoir récupéré les
+                                    différentes séquences
+                                    ADN de plusieurs espèces de musaraignes (suites de A, T, C, G) et les avoir
+                                    analysés, la classification a pu être confirmée.
+                                </p>
+                                <a class="m-5 py-2 px-4 bg-yellow-500 items-center justify-center flex lg:w-1/4"
+                                    href="TER.pdf" target=blank_>Voir le PDF</a>
                             </div>
-                       </div>
-                       <div class="tab w-full overflow-hidden border-t">
-                          <input class="absolute opacity-0" id="tab-single-three" type="checkbox" name="tabs2">
-                          <label class="block p-5 leading-normal cursor-pointer" for="tab-single-three">Classification d'images d'animaux - Data Science</label>
-                          <div class="tab-content overflow-hidden  leading-normal">
-                             <p class="p-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, architecto, explicabo perferendis nostrum, maxime impedit atque odit sunt pariatur illo obcaecati soluta molestias iure facere dolorum adipisci eum? Saepe, itaque.</p>
-                          </div>
-                       </div>
+                        </div>
+
                     </div>
-                 </div>
+                </div>
 
             </div>
 
-            
+
 
 
         </div>
 
-        
+
 
     </div>
 </body>
 <script type="text/javascript" src="fonctions.js"></script>
+
 </html>
