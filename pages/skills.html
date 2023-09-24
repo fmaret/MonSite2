@@ -1,0 +1,125 @@
+<div class="lg:divide-x lg:flex mt-8 w-full">
+    <div class="flex flex-col items-center pr-5">
+        <h1 class="text-white text-5xl pl-5 py-5 w-80">Soft skills</h1>
+    </div>
+    <div class="lg:pl-16 text-white text-2xl px-5 flex flex-row w-full">
+        <ul>
+            <li>Travail d'équipe</li>
+            <li>Autonome</li>
+        </ul>
+    </div>
+</div>
+
+<div class="lg:divide-x lg:flex mt-8">
+    <div class="flex flex-col items-center pr-5">
+        <h1 class="text-white text-5xl pl-5 py-5 w-80">Hard skills</h1>
+    </div>
+    <div class="lg:pl-16 text-white text-2xl px-5 flex flex-col ">
+        <div>
+            <button class="bg-gray-100 rounded text-black px-2 py-2" onclick="selectSkills()">Tout</button>
+            <button class="bg-gray-100 rounded text-black px-2 py-2" onclick="selectSkills('front')">Frontend</button>
+            <button class="bg-gray-100 rounded text-black px-2 py-2" onclick="selectSkills('back')">Backend</button>
+            <button class="bg-gray-100 rounded text-black px-2 py-2" onclick="selectSkills('data')">Data</button>
+            <button class="bg-gray-100 rounded text-black px-2 py-2" onclick="selectSkills('game')">Jeux-vidéos</button>
+        </div>
+        <ul class="grid grid-cols-6 gap-4">
+            <li class="flex flex-col data back game">
+                <span>Python</span>
+                <progress value="1" />
+            </li>
+            <li class="flex flex-col front">
+                <span>Html</span>
+                <progress value="1" />
+            </li>
+            <li class="flex flex-col front">
+                <span>CSS</span>
+                <progress value="0.7" />
+            </li>
+            <li class="flex flex-col front">
+                <span>SCSS</span>
+                <progress value="0.7" />
+            </li>
+            <li class="flex flex-col front">
+                <span>Javascript</span>
+                <progress value="0.9" />
+            </li>
+            <li class="flex flex-col front">
+                <span>VueJS</span>
+                <progress value="0.9" />
+            </li>
+            <li class="flex flex-col back">
+                <span>Java</span>
+                <progress value="0.6" />
+            </li>
+            <li class="flex flex-col game">
+                <span>Unreal Engine</span>
+                <progress value="1" />
+            </li>
+            <li class="flex flex-col game">
+                <span>Unity</span>
+                <progress value="0.5" />
+            </li>
+            <li class="flex flex-col data">
+                <span>R</span>
+                <progress value="0.8" />
+            </li>
+            <li class="flex flex-col back">
+                <span>PHP</span>
+                <progress value="0.7" />
+            </li>
+            <li class="flex flex-col back game">
+                <span>C++</span>
+                <progress value="0.6" />
+            </li>
+            <li class="flex flex-col data back">
+                <span>SQL</span>
+                <progress value="0.9" />
+            </li>
+            <li class="flex flex-col front back">
+                <span>Node.JS</span>
+                <progress value="0.8" />
+            </li>
+            <li class="flex flex-col front back">
+                <span>Typescript</span>
+                <progress value="0.9" />
+            </li>
+            <li class="flex flex-col front">
+                <span>Bootstrap</span>
+                <progress value="0.7" />
+            </li>
+            <li class="flex flex-col front">
+                <span>Tailwind</span>
+                <progress value="0.8" />
+            </li>
+            <li class="flex flex-col back">
+                <span>Fortran</span>
+                <progress value="0.5" />
+            </li>
+        </ul>
+    </div>
+</div>
+
+<style>
+progress {
+    border: 1px solid black;
+}
+progress[value="1"]::-webkit-progress-value {
+    background: rgb(0, 219, 0); /* Couleur par défaut */
+}
+progress[value="0.9"]::-webkit-progress-value {
+    background: rgb(31, 197, 31); /* Couleur par défaut */
+}
+progress[value="0.8"]::-webkit-progress-value {
+    background: rgb(59, 190, 59); /* Couleur par défaut */
+}
+progress[value="0.7"]::-webkit-progress-value {
+    background: rgb(104, 223, 100); /* Couleur par défaut */
+}
+progress[value="0.6"]::-webkit-progress-value {
+    background: rgb(149, 241, 146); /* Couleur par défaut */
+}
+progress[value="0.5"]::-webkit-progress-value {
+    background: rgb(134, 224, 111); /* Couleur par défaut */
+}
+
+</style>
